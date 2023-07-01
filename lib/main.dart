@@ -397,6 +397,10 @@ class _HomePageState extends State<HomePage> {
                 onPressed: _parsingstr,
                 child: const Text('Begin parsing!'),
               ),
+              ElevatedButton(
+                onPressed: () {},
+                child: const Text('Pick file for parsing'),
+              ),
             ],
           ),
         ),
